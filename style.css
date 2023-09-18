@@ -1,0 +1,211 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-wrap{
+    background-color: #cdcaca;
+    width:100%;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-container{
+    display: flex;
+    width:90%;
+    height:850px;
+    background:#fff;
+    border-radius: 15px;
+    background-image: url(images/landj.png);
+    background-size: cover;
+
+}
+h2{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+#logo-su{
+    display:flex;
+    padding: 3%;
+    padding-left: 0%;
+    
+}
+.img-box{
+    width:50%;
+    height: 100%;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-color: rgb(170, 32, 129); */
+}
+.form-wrap{
+    /* font-family: Arial; */
+    width:100%;
+    height: 100%;
+    padding: 20px;
+}
+.form-wrap .top-signin{
+    text-align: right;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(155, 152, 152);
+}
+.form-wrap .signup-btn{
+    text-decoration: none;
+    color: #35f284;
+    border: 1px solid rgb(185, 233, 28);
+    padding: 4px 8px;
+    font-size: 12px;
+    margin-left: 8px;
+    border-radius: 16px;
+}
+.form-wrap .signup-btn:hover{
+    background-color: rgba(238, 238, 238, 0.527);
+}
+.form-wrap .mid-container{
+    padding-left: 40px;
+    position: relative;
+    box-shadow: 10px 14px 20px 10px rgba(231, 251, 254, 0.518); 
+    display: flex;
+    justify-content: center;
+    
+}
+.mid-container h6{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 2px;
+    letter-spacing: 0.002rem;
+    color:rgb(22, 220, 124);
+}
+.mid-container .form{
+    padding-top: 6px;
+    font-weight: 700;
+}
+.mid-container .form label{
+    font-weight: 800;
+    color: #ffffff;
+    padding:0;
+}
+.mid-container .form input{
+    width:450px;
+    margin: 6px 0px;
+    font-weight: 600;
+    height:23px;
+    color:rgb(69, 63, 63);
+    padding-left: 5px;
+    border-radius: 4px;
+    border: 1px solid rgb(5, 234, 234);
+}
+.mid-container .form input:focus{
+    border: 1px solid rgb(182, 180, 180);
+    outline: none;
+}
+.mid-container .form input::placeholder{
+    color: rgb(175, 174, 174);
+    z-index: 10;
+}
+.fg-pass{
+    color:rgb(175, 174, 174);
+    font-size: 14px;
+    text-decoration: none;
+    z-index: 10;
+}
+.mid-container .form .login-btn{
+    padding:10px;
+    cursor: pointer;
+    width: 140px;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #1c232f;
+    color: rgb(247, 244, 244);
+    border-radius:20px;
+    border:rgb(244, 244, 244);
+    z-index: 10;
+}
+.mid-container .form .login-btn:hover{
+    background-color: rgba(144, 144, 155, 0.938);
+    transition: all ease 1s;
+}
+.login-with{
+    padding: 70px 40px;
+    padding-bottom: 4%;
+    
+}
+.login-with span{
+    color: rgb(5, 5, 5);
+    margin-right: 12px;
+    font-weight: 400;
+}
+.login-with a{
+    border: 1px solid rgb(65, 59, 59);
+    border-radius: 30px;
+    padding:8px;
+    width:25px;
+    margin: 5px 4px ;
+    height:25px;
+
+}
+.login-with a img{
+    width:18px;
+    height:18px;
+    margin-bottom: -3px;
+}
+
+.Access_specifier{
+    position: relative;
+    display: flex;
+    font-weight: 1000;
+}
+
+.Lawyer{
+    margin: 1%;
+    padding: 2%;
+    margin-bottom: 6%;
+    position: relative;
+    background-color: #fff;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Lawyer:hover{
+    background-color: aquamarine;
+    width: 20%;
+    transition-delay: 0.1s;
+
+}
+
+.title{
+    color: #000000;
+}
+.und{
+    text-decoration: none;
+}
+.gen{
+    width: 205px;
+    height: 23px;
+    border-radius: 6px;
+    font-weight: 500;
+    margin: 0px 10px 5px 0px ;
+}
+.adr{
+    background-color: #5c9ae5;
+    border-radius: 4px;
+    height: 25px;;
+}
+.userid{
+    margin-right: 10%;
+}
+.otp_verification{
+    width: 12.4%;
+    height:25px;
+    background-color: #35f284;
+    border-radius: 4px;
+}
+#verotp{
+    width: 348px;
+}
